@@ -20,7 +20,7 @@ part_c.py  - (c) top 20 tokens                                     [Member 1]
 part_d.py  - (d) repeat (b) without stopwords                      [Member 1]
 part_e.py  - (e) repeat (b) with stemming + comparison writeup     [Member 2]
 part_f.py  - (f) a POS tagging mistake + explanation               [Member 2]
-part_g.py  - (g) proper-noun (NNP/NNPS) tag cloud                  [Member 3]
-part_h.py  - (h) regex for two consecutive repeated words          [Member 3]
+part_g.py  - (g) proper-noun (NNP/NNPS) tag cloud                  [Member 3, done]
+part_h.py  - (h) regex for two consecutive repeated words          [Member 3, done]
 
 Part (a) - the book name - goes in the report only, no code needed.
