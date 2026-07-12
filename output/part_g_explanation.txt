@@ -1,0 +1,10 @@
+The tag cloud of proper nouns (NNP/NNPS) matches the book very well. The most
+frequent proper nouns are Polo (820), Marco (650), Kaan (316), Khan (274) and
+Kublai (256) - the traveler himself and the Mongol emperor he served - together
+with the places on his route: China, India, Persia, Venice, Cathay, Hormuz and
+Tibet. Names like Yule, Pauthier and Ramusio also appear prominently because
+this Gutenberg edition includes extensive commentary by its translator Sir
+Henry Yule and refers to earlier editors, and those notes are part of the text.
+We filtered out all-caps tokens (from chapter headings like "THE TRAVELS OF...")
+and single letters (scholars' initials such as "H. Yule"), which the POS tagger
+mis-labels as proper nouns.
