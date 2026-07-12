@@ -1,0 +1,6 @@
+POS tagging mistake (part f)
+Sentence: "The remainder, however, is favourable to agriculture, and produces everything abundantly."
+
+The word "agriculture" is tagged VB (base-form verb), but it is actually a common noun (NN): it is the object of the preposition "to" in the phrase "favourable to agriculture".
+
+Why the tagger is fooled: the token "to" is by far most often the infinitive marker, which is normally followed by a base-form verb (e.g. "to run", "to go"). The averaged-perceptron tagger leans heavily on the previous tag, so after seeing "to" (tagged TO) it strongly prefers a following VB and overrides the fact that "agriculture" is only ever a noun. Here "to" is really a preposition, so the correct tag is NN.
